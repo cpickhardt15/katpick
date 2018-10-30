@@ -1,0 +1,51 @@
+nav {
+    background-color: transparent;
+    font-size: 20px;
+    font-family: "adobe-garamond-pro";
+    height: 70px;
+    text-transform: uppercase;
+    
+    @media (max-width: 480px) {
+       font-size: 16px;
+    }
+
+    .navbar-nav {
+        flex-direction: row; 
+        margin-left: 15%;
+        color: black;
+
+        @media (max-width: 480px) {
+            margin-left: -12px;
+            margin-top: 35px;
+        }
+
+        .dropdown-menu {
+            border-radius: none;
+            min-width: 12rem;
+
+            &.show {
+            position: absolute;
+            margin-left: 23px;
+            }
+
+            .dropdown-item {
+                color: #495057;
+            }
+        }
+    }
+
+    .nav-item {
+        text-align: center;
+        
+        a {
+            color: white;
+
+            &:hover, &:active{
+                color: #495057;
+			};
+     
+        }
+
+    }
+    
+}

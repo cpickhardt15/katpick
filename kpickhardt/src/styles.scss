@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";
+
+.top-offset {
+    min-height: 100%;
+    width: 100%;
+    color: black;
+    font-size: 24px;
+    padding-top: 100px;
+    font-family: 'Georgia', sans-serif;
+
+    
+    @media (max-width: 480px) {
+        padding-top: 0;
+    }
+}
+
